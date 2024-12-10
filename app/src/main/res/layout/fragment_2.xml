@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Fragment2"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/black">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Switch Statement"
+                android:textStyle="bold"
+                android:layout_marginTop="20dp"
+
+                android:textSize="25dp"
+                android:padding="10dp"
+                android:gravity="center"
+                android:textColor="@color/white"
+                android:layout_centerInParent="true"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="15dp"
+                android:text="Instead of writing many if..else statements, you can use the switch statement.
+
+The switch statement selects one of many code blocks to be executed."
+                android:textColor="@color/white"
+                android:textSize="21dp"
+                android:textStyle="bold"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/white"
+                android:layout_marginLeft="15dp"
+                android:text="This is how it works:"
+                android:layout_marginTop="20dp"
+                android:textStyle="bold"
+                android:textSize="21dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/white"
+                android:textSize="21dp"
+                android:textStyle="bold"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="15dp"
+                android:text="1.The switch expression is evaluated once.
+2.The value of the expression is compared with the values of each case.
+3.If there is a match, the associated block of code is executed.
+4.he break statement breaks out of the switch block and stops the execution.
+5.The default statement is optional, and specifies some code to run if there is no case match"/>
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="350dp"
+                android:src="@drawable/switchsta"
+                android:layout_marginTop="25dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:textStyle="bold"
+                android:textSize="21dp"
+                android:layout_marginLeft="15dp"
+                android:text="In this example, the value of the variable (day) is checked against the different case statements, and the corresponding code block is executed. Since the value of (day) is 3, the code block under the case statement for 3 is executed, which prints (Wednesday) to the console."
+                android:textColor="@color/white"/>
+        </LinearLayout>
+    </ScrollView>
+
+
+
+</LinearLayout>

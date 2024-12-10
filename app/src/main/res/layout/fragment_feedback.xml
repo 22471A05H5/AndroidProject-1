@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="@drawable/black">
+    <TextView
+        android:layout_width="180sp"
+        android:layout_height="wrap_content"
+        android:text="  Contact Form"
+
+        android:textColor="@color/white"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:layout_gravity="center"
+        />
+
+    <EditText
+        android:id="@+id/edt1"
+        android:layout_width="328dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="33dp"
+        android:layout_marginRight="35dp"
+        android:background="@drawable/custom_edit"
+        android:drawableLeft="@drawable/baseline_account_circle_24"
+        android:drawablePadding="8dp"
+        android:hint="UserName"
+        android:minHeight="48dp"
+        android:padding="8dp"
+        android:textColor="@color/black"
+        android:textColorHint="#6C6969" />
+
+    <EditText
+        android:id="@+id/edt2"
+        android:layout_width="328dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="13dp"
+        android:layout_marginRight="35dp"
+        android:background="@drawable/custom_edit"
+        android:drawableLeft="@drawable/baseline_email_24"
+        android:drawablePadding="8dp"
+        android:hint="Email"
+        android:minHeight="48dp"
+        android:padding="8dp"
+        android:textColor="@color/black"
+        android:textColorHint="#6C6969" />
+    <EditText
+        android:id="@+id/edt3"
+        android:layout_width="328dp"
+        android:layout_height="100dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="13dp"
+        android:layout_marginRight="35dp"
+        android:background="@drawable/custom_edit"
+        android:drawableLeft="@drawable/baseline_add_comment_24"
+        android:drawablePadding="8dp"
+        android:hint="Message"
+        android:minHeight="48dp"
+        android:padding="8dp"
+        android:textColor="@color/black"
+        android:textColorHint="#6C6969"
+        android:inputType="textMultiLine"/>
+
+
+    <Button
+        android:id="@+id/buttonSubmit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Send Message"
+        android:backgroundTint="@android:color/holo_blue_dark"
+        android:textStyle="bold"
+        android:textSize="18dp"
+        android:layout_marginTop="40dp"
+        android:layout_gravity="center"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+    <ImageButton
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:src="@drawable/insta"
+        android:scaleType="centerInside"
+        android:id="@+id/img1"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="30dp"/>
+    <ImageButton
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:src="@drawable/twitter"
+        android:scaleType="centerInside"
+        android:id="@+id/img2"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="40dp"/>
+        <ImageButton
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:src="@drawable/linkedin_3992606"
+            android:scaleType="centerInside"
+            android:id="@+id/img3"
+            android:layout_marginTop="50dp"
+            android:layout_marginLeft="40dp"/>
+    </LinearLayout>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        android:text="Contact Number:+91-9998887776\nemail:pulagorlamounica@gmail.com"
+        android:layout_marginTop="40dp"
+        android:textSize="18dp"/>
+
+
+</LinearLayout>

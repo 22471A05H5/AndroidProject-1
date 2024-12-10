@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".IntroductionToCFragment"
+    android:orientation="vertical"
+    android:background="@drawable/back4">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal"
+        android:background="@color/whit">
+        <ImageButton
+            android:layout_width="50dp"
+            android:layout_height="40dp"
+            android:id="@+id/hyphen"
+            android:layout_marginLeft="17dp"
+            android:layout_marginTop="4dp"
+            android:src="@drawable/baseline_arrow_circle_left_24"
+            />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Introduction to C"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:layout_marginTop="6dp"
+        android:gravity="center"/></LinearLayout>
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/txt"
+    android:text="C is a general-purpose programming language created by Dennis Ritchie at the Bell Laboratories in 1972.
+It is a very popular language, despite being old."
+    android:textColor="@color/white"
+    android:layout_marginLeft="20dp"
+    android:layout_marginRight="15dp"
+    android:lineHeight="34dp"
+    android:textStyle="bold"
+    android:textSize="23dp"
+    android:layout_marginTop="30dp"/>
+
+    <ImageButton
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:id="@+id/dennie"
+        android:src="@drawable/dennis"
+        android:layout_marginLeft="60dp"
+        android:layout_marginTop="20dp"/>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    <FrameLayout
+        android:id="@+id/fragmentContainer"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:background="@color/black"
+        android:layout_marginTop="20dp"
+       >
+
+    </FrameLayout>
+
+
+    </ScrollView>
+
+</LinearLayout>

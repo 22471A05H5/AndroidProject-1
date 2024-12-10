@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Fragment1"
+    android:orientation="vertical">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/black">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+        <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="if Statement"
+        android:textStyle="bold"
+
+        android:textSize="25dp"
+        android:padding="10dp"
+        android:gravity="center"
+        android:textColor="@color/white"
+        android:layout_centerInParent="true"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="The if in C is the most simple decision-making statement. It consists of the test condition and if block or body. If the given condition is true only then the if block will be executed."
+        android:textColor="@color/white"
+        android:textSize="21dp"
+        android:textStyle="bold"/>
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:src="@drawable/ifsta"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:textSize="21dp"
+                android:text="  //  From the above example,if the number is greater than or equal to 9 ,then only the condition becomes true, Otherwise the condition gets false. If the condition gets true then it enters into the if block and executes the statements , if not then it enters into the else block and executes the statements present inside the else block."
+                android:textColor="@color/white"/>
+        </LinearLayout>
+    </ScrollView>
+
+
+
+</LinearLayout>

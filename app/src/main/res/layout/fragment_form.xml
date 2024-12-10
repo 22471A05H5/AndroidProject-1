@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".FormFragment"
+    android:background="@color/black">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal"
+        android:background="@color/whit">
+
+        <ImageButton
+            android:id="@+id/hyphen"
+            android:layout_width="50dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="17dp"
+            android:layout_marginTop="6dp"
+            android:src="@drawable/baseline_arrow_circle_left_24"
+            tools:ignore="TouchTargetSizeCheck" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Enter your details"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:textSize="25dp"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="5dp"/>
+
+    </LinearLayout>
+
+
+    <EditText
+        android:id="@+id/nameEditText"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:hint="Enter your name"
+        android:background="@drawable/custom_edit"
+        android:drawableLeft="@drawable/baseline_account_circle_24"
+        android:padding="8dp"
+        android:layout_marginTop="60dp"
+        android:textColor="@color/black"
+        android:layout_marginLeft="30dp"
+        android:inputType="textPersonName"
+        android:minHeight="48dp"
+        android:textColorHint="#787575"/>
+
+    <EditText
+        android:id="@+id/rollNoEditText"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:hint="Enter your roll number"
+        android:background="@drawable/custom_edit"
+        android:drawableLeft="@drawable/baseline_note_alt_24"
+        android:layout_marginTop="30dp"
+        android:textColor="@color/black"
+        android:padding="10dp"
+        android:layout_marginLeft="30dp"
+        android:inputType="number"
+        android:minHeight="48dp"
+        android:textColorHint="#7A7070"/>
+
+    <Button
+        android:id="@+id/submitButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Start Quiz"
+        android:backgroundTint="#45935A"
+        android:layout_marginTop="20dp"
+        android:textStyle="bold"
+        android:layout_gravity="center"/>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/border"
+        android:orientation="vertical"
+        android:layout_marginTop="20dp">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="INSTRUCTIONS FOR QUIZ"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:gravity="center"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="1.Fill in both fields and tap the Start quiz button.\n2.After submitting, you will be directed to the quiz page\n3. quiz consists of 10 multiple-choice questions and Each question carries 1 mark.
+\n4.Each question has four options. Read the question carefully and select the correct answer by tapping on one of the radio buttons.\n5.Previous Button: Takes you to the previous question if you're not on the first one.\n6.Next Button: Takes you to the next question if you're not on the last one.\n7.If you prefer jumping directly to a specific question, you can use the numbered buttons (1 to 10) that allow quick navigation to any question in the quiz.\n8.You can change your answers anytime by revisiting the questions using the Previous or Next buttons or the numbered buttons.\n9After you have answered all the questions, tap the Finish button.\n10.If you wish to retake the quiz, simply press the Restart button. This will reset the quiz, clear your answers, and take you back to the first question.\n
+11.After finishing, you will be redirected to a new screen where you can review the stored results.\n12.Make sure to fill in your correct Name and Roll Number at the beginning, as this data is used to store your results."
+            android:textColor="#830698"
+            android:textSize="15dp"/>
+    </LinearLayout>
+    </ScrollView>
+</LinearLayout>

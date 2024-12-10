@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Fragment3">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/black">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Conditional Statements"
+                android:textStyle="bold"
+                android:layout_marginTop="20dp"
+
+                android:textSize="25dp"
+                android:padding="10dp"
+                android:gravity="center"
+                android:textColor="@color/white"
+                android:layout_centerInParent="true"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="15dp"
+                android:text="The conditional statements (also known as decision control structures) such as if, if else, switch, etc. are used for decision-making purposes in C programs.
+
+They are also known as Decision-Making Statements and are used to evaluate one or more conditions and make the decision whether to execute a set of statements or not. These decision-making statements in programming languages decide the direction of the flow of program execution."
+                android:textColor="@color/white"
+                android:textSize="21dp"
+                android:textStyle="bold"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/white"
+                android:layout_marginLeft="15dp"
+                android:text="Following are the decision-making statements available in C:"
+                android:layout_marginTop="20dp"
+                android:textStyle="bold"
+                android:textSize="21dp"/>
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="340dp"
+                android:src="@drawable/control2"
+                android:layout_marginTop="20dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/white"
+                android:textSize="21dp"
+                android:textStyle="bold"
+                android:layout_marginTop="10dp"
+                android:text="  1.if Statement"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/white"
+                android:textSize="21dp"
+                android:textStyle="bold"
+                android:layout_marginTop="10dp"
+                android:text="  2. if-else Statement"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/white"
+                android:textSize="21dp"
+                android:textStyle="bold"
+                android:layout_marginTop="10dp"
+                android:text="  3.Nested if Statement"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/white"
+                android:textSize="21dp"
+                android:textStyle="bold"
+                android:layout_marginTop="10dp"
+                android:text="  4.if-else-if Ladder"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/white"
+                android:textSize="21dp"
+                android:textStyle="bold"
+                android:layout_marginTop="10dp"
+                android:text="  5.switch Statement"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/white"
+                android:textSize="24dp"
+                android:textStyle="bold"
+                android:layout_marginTop="10dp"
+                android:text=" Jump Statements:  "/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/white"
+                android:textSize="21dp"
+                android:textStyle="bold"
+                android:layout_marginTop="10dp"
+                android:text="    1.break"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/white"
+                android:textSize="21dp"
+                android:textStyle="bold"
+                android:layout_marginTop="10dp"
+                android:text="    2.continue "/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/white"
+                android:textSize="21dp"
+                android:textStyle="bold"
+                android:layout_marginTop="10dp"
+                android:text="    3.goto"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/white"
+                android:textSize="21dp"
+                android:textStyle="bold"
+                android:layout_marginTop="10dp"
+                android:text="    4.return"/>
+
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                android:src="@drawable/condi"
+                android:layout_marginTop="5dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:textStyle="bold"
+                android:textSize="21dp"
+                android:text="Output: i is 20"
+                android:textColor="@color/white"/>
+        </LinearLayout>
+    </ScrollView>
+
+</FrameLayout>

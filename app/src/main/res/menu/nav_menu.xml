@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+    <group
+        android:checkableBehavior="single"
+        android:id="@+id/group1">
+    <item
+        android:id="@+id/item1"
+        android:title="HOME"
+        android:icon="@drawable/baseline_home_24"/>
+        <item
+            android:id="@+id/item8"
+            android:title="LOGIN"
+            android:icon="@android:drawable/ic_partial_secure"/>
+
+        <item
+        android:id="@+id/item2"
+        android:title="ABOUT"
+        android:icon="@drawable/baseline_note_alt_24"/>
+    <item
+        android:id="@+id/item3"
+        android:title="CONTACT"
+        android:icon="@drawable/baseline_local_phone_24"/>
+    <item
+        android:id="@+id/item4"
+        android:title="LOGOUT"
+        android:icon="@drawable/baseline_lock_24"/>
+        <item
+            android:id="@+id/item7"
+            android:title="SETTINGS"
+            android:icon="@drawable/baseline_app_settings_alt_24"/>
+        <item
+            android:id="@+id/item5"
+            android:title="PROFILE"
+            android:icon="@drawable/baseline_account_circle_24"/>
+
+        <item
+            android:id="@+id/item6"
+            android:title="FEEDBACK"
+            android:icon="@android:drawable/ic_menu_edit"/>
+</group>
+
+
+
+</menu>

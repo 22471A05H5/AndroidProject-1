@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".python_matter"
+    android:orientation="vertical"
+    android:background="@drawable/back4"
+    >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal"
+        android:background="@color/whit">
+        <ImageButton
+            android:layout_width="50dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="17dp"
+            android:layout_marginTop="6dp"
+            android:id="@+id/hyphen"
+            android:src="@drawable/baseline_arrow_circle_left_24"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Datatypes in C"
+            android:layout_marginLeft="40dp"
+            android:layout_marginTop="12dp"
+            android:textColor="@color/black"
+            android:textSize="29dp"
+            android:textStyle="bold"/>
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_marginLeft="5dp">
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Integer"
+                android:textStyle="bold"
+                android:textSize="27dp"
+                android:background="@color/white"
+                android:textColor="@color/black"
+                android:layout_marginTop="20dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:lineHeight="33dp"
+                android:text="@string/cdata"
+
+                android:textColor="@color/white"
+
+                android:textSize="23dp"
+                android:textStyle="bold"
+                android:layout_marginTop="15dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="15dp"
+                android:text="Example:int age = 25;  "
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                android:textSize="24dp"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Character"
+                android:textStyle="bold"
+                android:textSize="27dp"
+                android:background="@color/white"
+                android:textColor="@color/black"
+                android:layout_marginTop="25dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="15dp"
+                android:text="Individual characters are represented by the char data type. Typically used to hold ASCII or UTF-8 encoding scheme characters, such as letters, numbers, symbols, or commas. There are 256 characters that can be represented by a single char, which takes up one byte of memory. Characters such as 'A', 'b', '5', or '$' are enclosed in single quotes.  "
+                android:textColor="@color/white"
+                android:textSize="23dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="15dp"
+                android:text="Example:- char grade = 'A';  "
+                android:textColor="@color/white"
+                android:textSize="24dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Float"
+                android:textSize="27dp"
+                android:textStyle="bold"
+                android:layout_marginTop="20dp"
+                android:background="@color/white"
+                android:textColor="@color/black"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="15dp"
+                android:text="To represent integers, use the floating data type. Floating numbers can be used to represent fractional units or numbers with decimal places."
+                android:textColor="@color/white"
+                android:textSize="23dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="15dp"
+                android:text="Example:float temperature = 98.6;  "
+                android:textColor="@color/white"
+                android:textSize="24dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Double"
+                android:textSize="27dp"
+                android:textStyle="bold"
+                android:layout_marginTop="20dp"
+                android:background="@color/white"
+                android:textColor="@color/black"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Use two data types to represent two floating integers. When additional precision is needed, such as in scientific calculations or financial applications, it provides greater accuracy compared to float."
+                android:textSize="23dp"
+                android:textStyle="bold"
+
+                android:layout_marginTop="15dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="15dp"
+                android:text="Example:double pi = 3.14159265359;  "
+                android:textColor="@color/white"
+                android:textSize="24dp"
+                android:textStyle="bold" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Operators"
+                android:textSize="27dp"
+                android:textStyle="bold"
+                android:layout_marginTop="30dp"
+                android:background="@color/white"
+                android:textColor="@color/black"/>
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="400dp"
+                android:src="@drawable/operator"
+                android:layout_marginTop="20dp"/>
+
+
+            <Button
+                android:id="@+id/navigateToEditorButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Go to C Code Editor"
+                android:backgroundTint="#2BC520"
+                android:textSize="20sp"
+                android:layout_marginTop="0dp"
+                android:layout_gravity="center"
+                />
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AboutusFragment"
+    android:orientation="vertical"
+    android:background="@color/black">
+
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Coding High School"
+            android:textColor="@color/white"
+            android:gravity="center"
+            android:textSize="23sp"
+            android:textStyle="bold"/>
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Learn and practice programming concepts with our interactive quizzes."
+            android:layout_marginTop="19sp"
+            android:textSize="19sp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10sp"
+            android:text="Programming Languages Covered"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="C , Python , Java , Html , and Css"
+            android:layout_marginTop="8sp"
+            android:textSize="19sp"/>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+                android:id="@+id/btn"
+            android:text="Take Quiz"
+            android:layout_gravity="center"
+            android:backgroundTint="@color/whit"
+
+            android:textColor="@color/black"
+            android:layout_marginTop="18sp"/>
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="19sp"
+            android:layout_marginTop="10sp"
+            android:text="We teach you fundamentals including functions, variables, data types, and data structures to give them a solid foundation for learning additional languages." />
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+                android:src="@drawable/logo"
+            android:layout_marginTop="15sp"/>
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15sp"
+            android:textSize="19sp"
+            android:text="At Coding High School, our mission is to empower the next generation of tech leaders and creators. We believe that every student should have the opportunity to explore the exciting world of coding, regardless of their background or prior experience." />
+
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Who We Are"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:layout_marginTop="10sp"/>
+
+                        <TextView
+                            android:id="@+id/textView7"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:textSize="19sp"
+                            android:layout_marginTop="8sp"
+                            android:text="Coding High School is a dedicated platform designed for high school students who are eager to dive into the world of programming and computer science. Our team of educators, industry professionals, and tech enthusiasts is passionate about making coding accessible and engaging for young learners." />
+
+
+
+                        <TextView
+                            android:id="@+id/textView8"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Join Us"
+                            android:layout_marginTop="10sp"
+                            android:textSize="20sp"
+                            android:textStyle="bold"/>
+                        <TextView
+                            android:id="@+id/textView9"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:textSize="19sp"
+                            android:layout_marginTop="8sp"
+                            android:text="Whether you’re a beginner curious about coding or an aspiring tech expert looking to sharpen your skills, Coding High School is here to support your journey. Explore our courses, connect with our community, and start building the skills that will shape your future." />
+
+                        <TextView
+                            android:id="@+id/textView10"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:textSize="20sp"
+                            android:textStyle="bold"
+                            android:text="Thank you for being a part of our community. Together, we’re coding a brighter future!
+
+" />
+
+
+                </LinearLayout>
+        </ScrollView>
+</LinearLayout>

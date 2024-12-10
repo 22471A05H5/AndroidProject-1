@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".python2Fragment"
+    android:background="@color/black"
+    android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:orientation="horizontal"
+        android:background="@color/whit">
+
+        <ImageButton
+            android:id="@+id/hyphen"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="17dp"
+            android:layout_marginTop="6dp"
+            android:src="@drawable/baseline_arrow_circle_left_24"
+            tools:ignore="SpeakableTextPresentCheck" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Datatypes and Variables"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:textSize="25dp"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="5dp"/>
+
+    </LinearLayout>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            tools:ignore="HardcodedText">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="19dp"
+        android:text="Python Data types are the classification or categorization of data items. It represents the kind of value that tells what operations can be performed on a particular data. Since everything is an object in Python programming, Python data types are classes and variables are instances (objects) of these classes. The following are the standard or built-in data types in Python:
+\n1.Numeric\n
+2.Sequence Type\n
+3.Boolean\n
+4.Set\n
+5.Dictionary\n
+6.Binary Types( memoryview , bytearray , bytes )" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="18dp"
+                android:layout_marginLeft="20dp"
+                android:text='Syntax:\n
+x = 50\n
+x = 60.5\n
+x = 3j\n
+x = ["geeks", "for", "geeks"]\n
+x = ("geeks", "for", "geeks")\n
+x = range(10)\n
+x = {"name": "Suraj", "age": 24}\n
+x = {"geeks", "for", "geeks"}\n
+x = frozenset({"geeks", "for", "geeks"})\n
+x = True\n
+x = b"Geeks"\n
+x = bytearray(4)\n
+x = memoryview(bytes(6))\n
+x = None\n\nList Data Type\n
+Lists are just like arrays, declared in other languages which is an ordered collection of data. It is very flexible as the items in a list do not need to be of the same type.\n\nPython Access List Items\n
+
+In order to access the list items refer to the index number. Use the index operator [ ] to access an item in a list. In Python, negative sequence indexes represent positions from the end of the array. Instead of having to compute the offset as in List[len(List)-3], it is enough to just write List[-3]. Negative indexing means beginning from the end, -1 refers to the last item, -2 refers to the second-last item, etc.
+
+
+\nList = ["Geeks", "For", "Geeks"]'/>
+        </LinearLayout>
+        </ScrollView>
+
+</LinearLayout>

@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="@drawable/black"
+    tools:context=".ReviewFragment">
+
+
+
+    <TextView
+        android:id="@+id/experienceLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Rate your experience"
+        android:layout_gravity="center"
+        android:textSize="19sp"
+        android:layout_marginTop="30dp"/>
+
+    <RatingBar
+        android:id="@+id/ratingBarExperience"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+      android:background="#AEA5A5"
+        android:numStars="5"
+        android:stepSize="1.0"
+        android:layout_gravity="center"/>
+
+    <!-- Rating for difficulty -->
+    <TextView
+        android:id="@+id/difficultyLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Rate the difficulty"
+        android:textSize="16sp"
+        android:layout_gravity="center"
+        android:layout_marginTop="16dp"/>
+
+    <RatingBar
+        android:id="@+id/ratingBarDifficulty"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:layout_gravity="center"
+        android:background="#AEA5A5"
+        android:numStars="5"
+        android:stepSize="1.0"/>
+
+    <!-- Feedback Text Input -->
+
+    <EditText
+        android:id="@+id/feedbackText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Please write your feedback"
+        android:inputType="textMultiLine"
+        android:minHeight="100dp"
+        android:gravity="top"
+        android:layout_marginTop="28dp"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white"
+        />
+
+    <!-- Recommend Switch -->
+    <Switch
+        android:id="@+id/recommendSwitch"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:layout_gravity="center"
+        android:minHeight="48dp"
+        android:text="Would you recommend this quiz?"
+        android:textColor="@color/white"/>
+
+    <!-- Radio Group for Feedback Options -->
+    <TextView
+        android:id="@+id/feedbackOptionLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="How would you rate the feedback system?"
+        android:layout_gravity="center"
+        android:textSize="16sp"
+        android:layout_marginTop="16dp"
+        android:textColor="@color/white"/>
+
+    <RadioGroup
+        android:id="@+id/feedbackOptionsGroup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:orientation="horizontal"
+        android:layout_marginTop="8dp">
+
+        <RadioButton
+            android:id="@+id/optionGood"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Good"
+            android:textColor="@color/white"/>
+
+        <RadioButton
+            android:id="@+id/optionAverage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Average"
+            android:textColor="@color/white"/>
+
+        <RadioButton
+            android:id="@+id/optionPoor"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Poor"
+            android:textColor="@color/white"/>
+    </RadioGroup>
+
+    <!-- Submit Button -->
+    <Button
+        android:id="@+id/submitButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Submit"
+        android:layout_gravity="center"
+        android:layout_marginTop="16dp"/>
+
+</LinearLayout>

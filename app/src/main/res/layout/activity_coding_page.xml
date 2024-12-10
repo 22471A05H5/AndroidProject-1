@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CodingPage"
+    android:orientation="vertical"
+    android:background="@drawable/back4">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:padding="10dp"
+        android:background="@color/whit">
+    <ImageButton
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="20dp"
+        android:id="@+id/imgbtn"
+        android:src="@drawable/baseline_arrow_circle_left_24" />
+    </LinearLayout>
+
+
+            <TextView
+                android:id="@+id/txt1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:layout_marginTop="50dp"
+                android:textColor="@color/white"
+                android:text="Choose a Language"
+                android:textSize="30dp" />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="C"
+        android:id="@+id/btn1"
+        android:textColor="@color/white"
+        android:textSize="30dp"
+        android:layout_marginTop="50dp"
+        android:backgroundTint="@color/black"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="PYTHON "
+        android:id="@+id/btn2"
+        android:textSize="30dp"
+        android:layout_marginTop="55dp"
+        android:textColor="@color/white"
+        android:layout_marginRight="20dp"
+        android:backgroundTint="@color/black"
+        android:layout_marginLeft="20dp"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="JAVA"
+        android:id="@+id/btn3"
+        android:textColor="@color/white"
+        android:backgroundTint="@color/black"
+        android:textSize="30dp"
+        android:layout_marginTop="55dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="HTML"
+        android:id="@+id/btn4"
+        android:textSize="30dp"
+        android:textColor="@color/white"
+        android:layout_marginTop="55dp"
+        android:backgroundTint="@color/black"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="CSS"
+        android:id="@+id/btn5"
+        android:textSize="30dp"
+        android:textColor="@color/white"
+        android:layout_marginTop="55dp"
+        android:backgroundTint="@color/black"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"/>
+
+
+</LinearLayout>

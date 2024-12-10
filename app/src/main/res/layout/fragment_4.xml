@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Fragment4">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:background="@color/black">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Looping Statements"
+                android:textStyle="bold"
+                android:layout_marginTop="20dp"
+
+                android:textSize="25dp"
+                android:padding="10dp"
+                android:gravity="center"
+                android:textColor="@color/white"
+                android:layout_centerInParent="true"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="15dp"
+                android:text="Loops in programming are used to repeat a block of code until the specified condition is met. A loop statement allows programmers to execute a statement or group of statements multiple times without repetition of code."
+                android:textColor="@color/white"
+                android:textSize="21dp"
+                android:textStyle="bold"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/white"
+                android:text="Following are the Looping statements available in C:"
+                android:layout_marginTop="20dp"
+                android:textStyle="bold"
+                android:textSize="21dp"/>
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="340dp"
+                android:src="@drawable/loop"
+                android:layout_marginTop="20dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/white"
+                android:textSize="21dp"
+                android:textStyle="bold"
+                android:layout_marginTop="10dp"
+                android:text="  1.for loop"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/white"
+                android:textSize="21dp"
+                android:textStyle="bold"
+                android:layout_marginTop="10dp"
+                android:text="  2. while loop"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/white"
+                android:textSize="21dp"
+                android:textStyle="bold"
+                android:layout_marginTop="10dp"
+                android:text="  3.do-while loop"/>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                android:src="@drawable/forloop"
+                android:layout_marginTop="5dp"/>
+            <ImageButton
+                android:layout_width="match_parent"
+                android:layout_height="500dp"
+                android:src="@drawable/whileloop"
+                android:layout_marginTop="5dp"/>
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="400dp"
+                android:src="@drawable/dowhileloop"
+                android:layout_marginTop="15dp"/>
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="400dp"
+                android:src="@drawable/output"
+                android:layout_marginTop="15dp"/>
+
+        </LinearLayout>
+    </ScrollView>
+</FrameLayout>
